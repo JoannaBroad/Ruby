@@ -9,3 +9,9 @@ def fav_food
 end
 
 fav_food
+
+# food_array.each do |food|
+# 		puts "ilike #{food too!}"
+# end
+
+food_array.each{|food| puts "I like#{food} too!"}
